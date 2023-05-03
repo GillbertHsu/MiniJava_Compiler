@@ -3,7 +3,6 @@ Grammar:
 
 ![image](grammar.jpg)
          
-###########################################################################################################
 For this project, it inlcudes parsing, typechecking, intermediate code generation
 and optimization using graph coloring technique, but assuming no need to spill.
  
