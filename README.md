@@ -1,6 +1,7 @@
 # MiniJava_Compiler
 Grammar:
 
+![image](grammar.jpg)
          
 ###############################################################################
 For this project, it inlcudes parsing, typechecking, intermediate code generation
