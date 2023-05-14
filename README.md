@@ -11,5 +11,5 @@ most 4 arguments.
  
 P5_with_optimiztion: doesn't deal with array. 
  
-P5_without_optimization: implement all grammar rules but with many ldr str instruction.
+P5_without_optimization: implement all grammar rules but with many redundant ldr str instruction.
                       
