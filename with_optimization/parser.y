@@ -513,9 +513,9 @@ int main(int argc, char* argv[] )
     // Traverse the AST to check for semantic errors if no syntac errors
     //print_tree_with_lines(root, 0);
     traverse_and_fill_table(root);
-    /* traverse_and_check_type(root);
+    traverse_and_check_type(root);
     checkProgram(root);
-    if (has_error())return 1; */
+    if (has_error())return 1;
     traverse_and_codegen(root, false);
     traverse_and_codegen(root, true);
     char filename[50];
